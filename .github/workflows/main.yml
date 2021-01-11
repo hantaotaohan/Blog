@@ -22,9 +22,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: |
-        rm -rf ./public
-        hugo --minify
+      run: hugo --gc --minify --cleanDestinationDir
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
