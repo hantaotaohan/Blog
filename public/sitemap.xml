@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hantaotaohan.github.io/</loc>
+    <loc>/home/taotao/blog/public/</loc>
     <lastmod>2020-01-26T04:15:05+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hantaotaohan.github.io/docs/</loc>
+    <loc>/home/taotao/blog/public/docs/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hantaotaohan.github.io/blog/</loc>
+    <loc>/home/taotao/blog/public/blog/</loc>
   </url>
   
 </urlset>
