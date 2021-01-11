@@ -22,7 +22,7 @@ jobs:
         extended: true
 
     - name: Build Clean
-      run: rm -rf "${PUBLIC_DIR}"
+      run: rm -rf "${PUBLIC_DIR}/"
 
     - name: Build
       run: hugo
