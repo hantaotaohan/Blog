@@ -21,17 +21,14 @@ jobs:
         hugo-version: '0.79.1'
         extended: true
 
-    - name: Build Clean
-      run: rm -rf "${PUBLIC_DIR}/"
-
     - name: Build
-      run: hugo
+      run: hugo --minify
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
         PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: public
+        PUBLISH_DIR: ./public
       with:
         emptyCommits: false
